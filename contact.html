@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <title>Contact Us</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,11 +14,10 @@
 </head>
 <body>
 
-
-<div class="container">
+<header>
+<div class="container mt-2">
 	
-           <img src="img/logo1.jpg" alt="Logo image"style="margin-left:43%;margin-top:15px;"><br><br>
-      
+<img src="img/logo1.jpg" alt="Logo image" width="20%" height="auto"style="margin-left:40%;margin-top:15px;"><br><br>      
    <ul class="nav justify-content-center text-uppercase nav-pills">
         <li class="nav-item">
             <a class="nav-link text-dark " href="index.html">Home</a>
@@ -45,14 +45,45 @@
         </li>
     </ul>
 </div>
+</header>
+
 <div class="container mt-5">
+ <div class="jumbotron bg-white">
+  <h1 class="display-3">Contact Us</h1>
   <div class="row align-items-center justify-content-center">
             <div class="col">
                 <div class="card bg-light mb-3 text-center">
-                    <div class="card-header">Our Contacts</div>
+                    <div class="card-body text-light">
+                        <form action="action_test.php" method="post" >
+        <div class="form-group">
+          <input type="text" class="form-control"  id="inputname" placeholder="Name" name="name" required>
+        </div>
+          
+        <div class="form-group">
+          <input type="email" class="form-control" id="inputemail" placeholder="Email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <input type="Phone" class="form-control" id="inputphone" placeholder="Phone No" name="Phone" required>
+        </div>
+        
+        <div class="form-group">
+          <textarea id="inputmessage" class="form-control" placeholder="Comments" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+      </form>
+
+     
+
+   
+
+
+
+
+                    </div>
                     <div class="card-body text-dark">
                         <span class="oi oi-phone"></span> Phone: <a href="tel : 07 4724 2086 "> 07 4724 2086</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-                        <span class="oi oi-signal"></span> Mobile: <a href="tel : 07 4724 2086">0402 255 182</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <span class="oi oi-signal"></span> Mobile: <a href="tel : 0402 255 182">0402 255 182</a> &nbsp;&nbsp;|&nbsp;&nbsp;
                         <span class="oi oi-envelope-closed"></span>  Email: <a href="mailto:admin@townsvillemusic.org.au">  admin@townsvillemusic.org.au</a>
                         <p class="mt-3"><span class="oi oi-pencil"></span> Postal Address: PO Box 1006, Townsville, Qld 4810</p>
                     </div>
@@ -65,6 +96,10 @@
                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15064.993304544227!2d146.8092081!3d-19.2715643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58cd8e35887d45e0!2sTownsville+Civic+Theatre!5e0!3m2!1sen!2sin!4v1526272165980" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                    
         </div>
+     </div>
 </div>
+<footer style="text-align: center; color: black">
+    <p>&#9400; 2018|Townsville Community Music Centre Inc.</p>
+</footer>
 </body>
 </html>
